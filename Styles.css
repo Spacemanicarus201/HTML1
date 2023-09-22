@@ -1,0 +1,13 @@
+h1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+body {
+    background: rgba(33, 137, 223, 0.3)
+    linear-gradient(to bottom right, rgba(33, 137, 223, 0.3), yellow)
+  }
+p {
+    font-family: Lucida Handwriting, Times, Serif;
+}
+.Enlarge {
+    transform: scale(2, 3);
+}
