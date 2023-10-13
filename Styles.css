@@ -1,13 +1,102 @@
 h1 {
-    font-family: "Times New Roman", Times, serif;
-  }
-body {
-    background: rgba(33, 137, 223, 0.3)
-    linear-gradient(to bottom right, rgba(33, 137, 223, 0.3), yellow)
-  }
-p {
-    font-family: Lucida Handwriting, Times, Serif;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3vw;
+  color: #000000; 
 }
-.Enlarge {
-    transform: scale(2, 3);
+
+body {
+  background-image: url('capy1.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: Lucida Handwriting, Times, Serif;
+  color: #333; 
+}
+
+
+p {
+  font-size: 1.5vw;
+  color: #070257; 
+}
+
+
+input[type="radio"] {
+  transform: scale(1.5);
+}
+
+
+li {
+  font-size: 1.5vw;
+  color: #000000; 
+}
+
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  color: #333; 
+}
+
+fieldset {
+  opacity: 5; 
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 10px; 
+  border: 1px solid #000; 
+  display: flex;
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #333;
+}
+
+h2 {
+  font-size: 1.5vw; 
+  color: #000; 
+}
+#favorite-animal img {
+  margin-right: 20px;
+}
+
+
+.animal-description {
+  flex-grow: 1;
+}
+
+
+.custom-box {
+  width: calc(33.33% - 10px);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333; 
+  padding: 10px; 
+  margin: 10px; 
+  text-align: center; 
+}
+
+
+.custom-box:nth-child(3n) {
+  margin-right: 0;
+}
+
+
+.box1 {
+  background-color: rgba(255, 255, 255, 0.9); 
+}
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 10px rgba(234, 29, 29, 0.7);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(212, 13, 13, 0.9);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(137, 8, 8, 0.7);
+  }
+}
+
+
+legend, h1, h3 {
+  animation: glowing 2s infinite;
 }
